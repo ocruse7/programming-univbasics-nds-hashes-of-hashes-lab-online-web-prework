@@ -43,9 +43,9 @@ def naming_system
   # HoH all the way to Species!
   multi-hash = {}
   multi-hash = { PORTION_1 }
-  multi-hash[:sub_category][:sub_category][:sub_category] = {PORTION_2}
-  multi-hash[:sub_category][:sub_category][:sub_category][:sub_category] = {PORTION_3}
-  multi-hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = {PORTION_4}
+  multi-hash[:sub_category][:sub_category][:sub_category] => {PORTION_2}
+  multi-hash[:sub_category][:sub_category][:sub_category][:sub_category] => {PORTION_3}
+  multi-hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] => {PORTION_4}
   multi-hash
 
 end
